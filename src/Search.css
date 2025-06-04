@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.search-container{
+    background-color: white;
+    display: flex;
+    border: solid hsl(209, 70%, 53%) 3px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+input{
+    border: none;
+    outline: none;
+    
+}
+.btn{
+    padding-top: 0px;
+    margin-top: 0px;
+}

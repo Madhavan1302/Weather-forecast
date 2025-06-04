@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.weather-image{
+    height: 200px;
+    overflow: hidden;
+}
+.f-3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.f-2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.textcol{
+    color: #837575;
+    
+}
+.city-info{
+    text-align: center;
+}
+.co-ord{
+    width: 100%;
+    justify-content: space-around;
+}
+.more-weather{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.mw {
+    text-align: center;
+}
+.mw img{
+    height: 70px;
+    width: 70px;
+}
+.not-found{
+    color: #837575;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.copyright p a{
+    text-decoration: none;
+    
+}
