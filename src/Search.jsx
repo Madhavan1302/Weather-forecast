@@ -11,7 +11,7 @@ const Search=({props})=>{
     return(<>
     <div className="search-container">
         <div><input value={cit} type="text" placeholder="Enter the city" onChange={(e)=>{setCit(e.target.value)}} onKeyDown={(e)=>{search(e)}}/></div>
-        <div className="" onClick={()=>{props(cit)}}>Search</div>
+        <div className="btn btn-primary" onClick={()=>{props(cit)}}>Search</div>
     </div>
     </>);
 }
